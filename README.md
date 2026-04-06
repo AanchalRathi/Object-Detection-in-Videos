@@ -26,3 +26,24 @@ The system processes the video frame-by-frame and draws **bounding boxes with la
 ---
 
 ## 📁 Project Structure
+project/
+│── detect.py
+│── input.mp4
+│── output.mp4
+│── requirements.txt
+│── README.md
+
+---
+
+## ⚙️ Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/AanchalRathi/object-detection-yolov8.git
+cd object-detection-yolov8
+```
+2. Install dependencies:
+pip install -r requirements.txt
+
+▶️ How to Run
+python detect.py
